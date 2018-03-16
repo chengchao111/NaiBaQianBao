@@ -28,13 +28,7 @@
 }
 //设置导航和TabBar
 - (void)NavgationSet{
-//    if (@available(iOS 11, *)) {
-//        [[UIBarButtonItem appearance] setBackButtonTitlePositionAdjustment:UIOffsetMake(-200, 0)
-//                                                             forBarMetrics:UIBarMetricsDefault];
-//    } else {
-//        [[UIBarButtonItem appearance] setBackButtonTitlePositionAdjustment:UIOffsetMake(0, -60)
-//                                                             forBarMetrics:UIBarMetricsDefault];
-//    }
+
     //去除导航栏下边的线
     [[UINavigationBar appearance] setShadowImage:[UIImage new]];
     //返回按钮的颜色
