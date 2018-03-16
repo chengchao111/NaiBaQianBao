@@ -18,6 +18,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    NSLog(@"我修改了");
     // Override point for customization after application launch.
     [self NavgationSet];
     LoginViewController *vc = [[LoginViewController alloc]init];
