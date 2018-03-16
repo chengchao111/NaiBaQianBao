@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>关于我们</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+<style type="text/css" >
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+body{line-height:1;}
+ol,ul{list-style:none;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+html{font-size: 16px;}
+html,body{ margin:0; padding:0; }
+html{-webkit-font-smoothing: antialiased; -webkit-overflow-scrolling:touch; -webkit-text-size-adjust:none; overflow-y:auto;height:100%; overflow-x:hidden;font-size: 16px;}
+body {color:#333;background:#fff;font-family: "microsoft yahei"; height: 100%;}
+a{ text-decoration:none;-webkit-tap-highlight-color: rgba(0,0,0,0); color:#000;}
+.text p{line-height: 2rem; font-size: 1.3rem; color: #6a6a6a; padding:0 0.6rem;}
+.text img{width:100%;}
+.text .textCenter{text-align: center;}
+.text .textCenter h1{font-size: 1.5rem;  height: 2.5rem;}
+.textCenter span{ display:block; font-size: 1.3rem; height:1.9rem; }
+</style>
+</head>
+<body>
+<div class="text">
+    <p>&nbsp&nbsp;&nbsp&nbsp;随着移动互联网的高速发展，手机里的应用给日常生活带来极大便利，近日，四川和汇明垣数据技术有限公司特推出一款可实用APP——奶爸钱包。</p>
+    <p></p>
+    <img src="00001.png" />
+    <div class="textCenter">
+        <h1>详情请咨询：400-960-9097</h1>
+        <span>四川和汇明垣数据技术有限公司</span>
+        <span style="line-height:1.8rem;"></span>
+    </div>
+</div>
+<script>
+(function(doc,win){
+	var docEl = doc.documentElement,
+	resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+	recalc = function(){
+		var clientWidth = docEl.clientWidth;
+		if (!clientWidth) return;
+		docEl.style.fontSize = 16*(clientWidth/640) + 'px';
+    };	
+	if(!doc.addEventListener) return;
+	win.addEventListener(resizeEvt,recalc,false);
+	doc.addEventListener('DOMContentLoaded',recalc,false);
+})(document,window);
+</script>
+</body>
+</html>

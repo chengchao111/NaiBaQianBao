@@ -1,0 +1,12 @@
+platform :ios,'8.0'
+target '奶爸钱包' do
+ pod 'AFNetworking', '~> 3.0.0'
+ pod 'SDWebImage', '~> 4.2.2'
+ pod 'MJRefresh', '~> 3.1.15.1'
+ pod 'FMDB', '~> 2.7.2'
+ pod 'MBProgressHUD', '~> 1.1.0'
+ pod 'MJExtension', '~> 3.0.13'
+ pod 'Masonry', '~> 1.1.0'
+ pod 'ReactiveObjC', '~> 2.1.2' 
+ pod 'IQKeyboardManager', '~> 5.0.6'
+end
